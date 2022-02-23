@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Shizuru&family=Ubuntu:wght@300&display=swap');
+это если мы хотим локально через папку подключить шрифты
+*/
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+	color:#fff;
+	text-decoration: none;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background: #689CD2;
+	color: #fff;
+}
+.header__section{
+	display: flex;
+	align-items: center;
+}
+.header__item{
+	padding: 10px 15px;
+	font-size: 20px;
+	margin-left: 5px;
+}
+.header__item:hover{
+	background-color: #FF9900;
+	border-radius: 4px;
+}
+.headerlogo{
+	font-weight: bold;
+}
+
+
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #689;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+}
+.footer a{
+	color: white;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.footer div a:hover{
+	border-bottom: 1px solid white;
+}
+.social img{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 4%;
+	height: auto;
+}
+.footer__rights{
+	float: left;
+	width: 50%;
+	font-size: 1.1em;
+}
