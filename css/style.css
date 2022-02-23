@@ -46,10 +46,10 @@ footer{
 }
 .footer a{
 	color: white;
-	font-size: 14px;
+	font-size: 20px;
 	margin-left: 10px;
 }
-.footer div a:hover{
+footer nav a:hover{
 	border-bottom: 1px solid white;
 }
 .social img{
@@ -59,7 +59,8 @@ footer{
 	height: auto;
 }
 .footer__rights{
-	float: left;
-	width: 50%;
-	font-size: 1.1em;
+	float: center;
+	width: 13%;
+	margin: 0 auto;
+	background-color: #000;
 }
