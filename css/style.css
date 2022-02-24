@@ -1,10 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Shizuru&family=Ubuntu:wght@300&display=swap');
-это если мы хотим локально через папку подключить шрифты
-*/
-
-body {
-	font-family: 'Ubuntu', sans-serif;
+body{
+	font-family: 'Shizuru', cursive;
 }
+
 
 a{
 	color:#fff;
@@ -49,9 +46,6 @@ footer{
 	font-size: 20px;
 	margin-left: 10px;
 }
-footer nav a:hover{
-	border-bottom: 1px solid white;
-}
 .social img{
 	margin-left: 10px;
 	margin-bottom: 10px;
@@ -59,8 +53,8 @@ footer nav a:hover{
 	height: auto;
 }
 .footer__rights{
-	float: center;
-	width: 13%;
+	float: left;
+	width: 100%;
 	margin: 0 auto;
-	background-color: #000;
+	background-color: #689;
 }
