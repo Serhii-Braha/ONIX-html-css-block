@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    position: absolute;
+    left: 595px;
+    top: 80px;
+}
+h2 {
+    position: absolute;
+    width: 377px;
+    left: 531px;
+    top: 188px;
+
+    font-style: normal;
+    font-weight: 750;
+    font-size: 26px;
+    line-height: 46px;
+    text-align: center;
+}
+.eml {
+    position: absolute;
+    width: 190px;
+    left: 514px;
+    top: 250px;
+
+    font-style: normal;
+    font-weight: 0;
+    font-size: 11px;
+    line-height: 8px;
+    text-align: center;
+}
+#inpEmail {
+    position: absolute;
+    width: 307px;
+    left: 595px;
+    top: 270px;
+
+    font-style: normal;
+    font-weight: 0;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.pasS {
+    position: absolute;
+    left: 595px;
+    top: 315px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #212529;
+}
+.psw {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: auto;
+    height: 30px;
+    left: 595px;
+    top: 340px;
+    font-style: normal;
+    font-weight: 0;
+    font-size: 155%;
+}
+.check {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1234px;
+    left: 598px;
+    top: 389px;
+
+    font-style: normal;
+    font-weight: 0;
+    font-size: 90%;
+}
+.forGot {
+    position: absolute;
+    width: 132px;
+    left: 800px;
+    top: 383px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.lgn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px 135px;
+    gap: 10px;
+
+    position: absolute;
+    height: 35px;
+    left: 595px;
+    top: 420px;
+
+    background: #D4A373;
+    border-radius: 5px;
+}
+.sign {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    width: 309px;
+    height: 35px;
+    left: 595px;
+    top: 468px;
+
+    background: #343A40;
+    border-radius: 5px;
+}
+.reg {
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 595px;
+    top: 518px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.regIster {
+    position: absolute;
+    left: 740px;
+    top: 518px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+}
